@@ -1,0 +1,7 @@
+.team-card {
+    display:flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #eeeeee;
+}
