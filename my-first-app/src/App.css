@@ -1,7 +1,9 @@
 .card-container {
-  width: 100vw;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  width: 100%;
+  justify-content: start;
   align-items: center;
+  height: 100vh;
 }
