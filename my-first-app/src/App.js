@@ -151,16 +151,23 @@
 
 */
 
-import React from "react";
-import "./App.css";
-import CryptoForm from "./components/Crypto/Crypto";
+// import React from "react";
+// import "./App.css";
+// import CryptoForm from "./components/Crypto/CryptoForm";
+
+// function App() {
+//   return (
+//     <div className="card-container">
+//       <CryptoForm />
+//     </div>
+//   );
+// }
+
+import * as React from 'react';
+import Button from '@mui/material/Button';
 
 function App() {
-  return (
-    <div className="card-container">
-      <CryptoForm />
-    </div>
-  );
+  return <Button variant="contained">Hello World</Button>;
 }
 
 export default App;
